@@ -2,8 +2,6 @@
 
 This repository contains a book cataloging app based on **Alexandria**, my Udacity Android Developer Project #3.  It is a nearly complete redesign/rewrite of the original app, which was rudimentary, contained a variety of errors and design flaws, and did not use a Material design.
 
-It also contains **Football**, the second part of Project 3.  I didn't do much with it other than fix some bugs, so once the project has been graded I'll remove it until I have time to provide a nicer interface.  All the info below pertains to Alexandria only.
-
 ## Features
 
 Features may or may not be completed and include, but are not limited to:
