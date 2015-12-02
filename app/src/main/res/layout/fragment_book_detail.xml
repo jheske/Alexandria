@@ -1,0 +1,116 @@
+<!--
+  ~
+  ~   ~ Copyright (C) 2015 The Android Open Source Project
+  ~   ~
+  ~   ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~   ~ you may not use this file except in compliance with the License.
+  ~   ~ You may obtain a copy of the License at
+  ~   ~
+  ~   ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~   ~
+  ~   ~ Unless required by applicable law or agreed to in writing, software
+  ~   ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   ~ See the License for the specific language governing permissions and
+  ~   ~ limitations under the License.
+  ~
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_containers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            style="@style/Widget.CardContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_book_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            <RelativeLayout
+                android:id="@+id/layoutAuthors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_book_cover">
+                <TextView
+                    android:id="@+id/txtAuthorsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_by" />
+                <TextView
+                    android:id="@+id/tv_authors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/txtAuthorsLabel"
+                    tools:text="Author1,Author2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/image_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <ImageView
+                    android:id="@+id/img_book_cover"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:paddingRight="8dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/book_cover"
+                    android:scaleType="fitStart"
+                    tools:src="@drawable/no_poster_w185"/>
+
+                <TextView
+                    android:id="@+id/tv_isbn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_book_cover"
+                    tools:text="ISBN-13: 97805532953371"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_isbn"
+                    android:layout_toRightOf="@+id/img_book_cover"
+                    android:layout_marginTop="8dp">
+                    <TextView
+                        android:id="@+id/txtCategoriesLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Categories: " />
+                    <TextView
+                        android:id="@+id/tv_categories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/txtCategoriesLabel"
+                        tools:text="Categories"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_book_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book description"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+
