@@ -1,3 +1,5 @@
+<a href="https://www.linkedin.com/pub/jill-heske/13/836/635">
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jill Heske's profile on LinkedIn"></a>
 ## Synopsis
 
 This repository contains a book cataloging app based on **Alexandria**, my Udacity Android Developer Project #3.  It is a nearly complete redesign/rewrite of the original app, which was rudimentary, contained a variety of errors and design flaws, and did not use a Material design.
