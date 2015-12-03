@@ -2,6 +2,8 @@
                 <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Jill Heske's profile on LinkedIn"></a>
 ## Synopsis
 
+![Alexandria icon](https://github.com/jheske/Alexandria/blob/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png?raw=true)
+
 This repository contains a book cataloging app based on **Alexandria**, my Udacity Android Developer Project #3.  It is a nearly complete redesign/rewrite of the original app, which was rudimentary, contained a variety of errors and design flaws, and did not use a Material design.
 
 ## Features
@@ -10,7 +12,7 @@ Features may or may not be completed and include, but are not limited to:
 
 Material Design conforms to Google's latest UI/UX standards. 
 
-Material components include CoordinatorLayout, AppBarLayout, CollapsingToolbarLayout, Toolbar, NestedScrollView, DrawerLayout, NavigationView, FloatingActionButton, and CardView.  It still uses a ListView, but I plan to replace that with a RecyclerView when time permits.
+Features Google's latest Material AppCompat and Design library widgets, including CoordinatorLayout, AppBarLayout, CollapsingToolbarLayout, Toolbar, NestedScrollView, DrawerLayout, NavigationView, FloatingActionButton, and CardView.  It still uses a ListView, but I plan to replace that with a RecyclerView when time permits.
 
 Allows user to add, view, delete, and share books.
 
