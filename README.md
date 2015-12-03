@@ -28,6 +28,13 @@ A book detail screen shows title, subtitle, authors, genres and a Share option.
  
 Provides a variety of portrait and landscape layouts to support both phones and tablets in a variety of screen resolutions.  The tablet version provides a master/detail layout in landscape mode.
 
+## Screenshots
+
+<img src="https://github.com/jheske/Alexandria/blob/master/master-detail.png?raw=true" alt="Alexandria master-detail" width="600">
+
+<img src="https://github.com/jheske/Alexandria/blob/master/portrait-nav-drawer.png?raw=true" alt="Alexandria nav drawer" width="300"> <img src="https://github.com/jheske/Alexandria/blob/master/portrait-add-book.png?raw=true" alt="Alexandria master-detail" width="300">
+
+
 ## Libraries included in build.gradle
 
     compile 'com.android.support:appcompat-v7:23.0.0'
