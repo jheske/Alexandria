@@ -8,7 +8,7 @@ This repository contains a book cataloging app based on **Alexandria**, my Udaci
 
 Features may or may not be completed and include, but are not limited to:
 
-Material Design, conforming as closely as possible to Google's latest UI/UX standards. 
+Material Design conforms to Google's latest UI/UX standards. 
 
 Material components include CoordinatorLayout, AppBarLayout, CollapsingToolbarLayout, Toolbar, NestedScrollView, DrawerLayout, NavigationView, FloatingActionButton, and CardView.  It still uses a ListView, but I plan to replace that with a RecyclerView when time permits.
 
@@ -35,7 +35,7 @@ Provides a variety of portrait and landscape layouts to support both phones and 
 <img src="https://github.com/jheske/Alexandria/blob/master/portrait-nav-drawer.png?raw=true" alt="Alexandria nav drawer" width="300"> <img src="https://github.com/jheske/Alexandria/blob/master/portrait-add-book.png?raw=true" alt="Alexandria master-detail" width="300">
 
 
-## Libraries included in build.gradle
+## build.gradle 
 
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.android.support:design:23.0.0'
